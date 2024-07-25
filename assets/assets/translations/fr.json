@@ -1,0 +1,128 @@
+{
+  "Auth": {
+    "login_headline": "connectez-vous à\nvotre compte !",
+    "singup_headline": "créez un compte\ngratuitement !",
+    "Login": {
+      "num": "Numéro de téléphone:",
+      "code": "Code de confirmation:",
+      "loginbutton": "connecter",
+      "notregistered1": "vous n'avez pas de compte? ",
+      "notregistered2": "Cliquez pour vous inscrire",
+      "success_login": "Bienvenue!",
+      "loginlarge": "Se connecter"
+    },
+    "getcode": "Obtenir le code",
+    "codesent": "Code envoyé",
+    "please_phone": "Veuillez entrer votre numéro de téléphone",
+    "please_code": "Veuillez entrer le code reçu",
+    "phone_not_recognized": "Le numéro de téléphone n'est pas reconnu",
+    "code_wrong": "Le code saisi est erroné",
+    "SignUp": {
+      "havingacc1": "vous avez déjà un compte? ",
+      "havingacc2": "Cliquez ici pour connecter",
+      "fullname": "Nom et Prénom:",
+      "idcard": "numéro de carte d'identité:",
+      "num": "Numéro de téléphone:",
+      "code": "Code de confirmation:",
+      "signupbutton": "s'inscrire",
+      "fullname_hint": "Nom Prénom",
+      "success_signup": "Merci d'avoir créé un compte chez nous ! Veuillez patienter pendant que nous vérifions votre identité. Ce processus ne prend généralement pas plus de 4 heures.",
+      "signuplarge": "Inscerrie avec nous"
+    },
+    "please_fullname": "S'il vous plait entrez votre nom entier",
+    "please_idcard": "Veuillez saisir votre numéro de carte d'identité",
+    "validate_phone": "votre numéro de téléphone est incorrect",
+    "validate_idcard": "votre numéro d'identification est incorrect",
+    "validate_fullname": "S'il vous plait entrez votre nom corrects",
+    "AuthService": {
+      "Handler": {
+        "invalide-cridentials": "Vos identifiants de connexion ne sont pas valides",
+        "user-disabled": "Le compte utilisateur correspondant à l\\'email donnée a été désactivé.",
+        "account-exists-with-different-credential": "Il existe déjà un compte avec l\\'adresse e-mail assertée par les informations d\\'identification. Résolvez cela en appelant fetchSignInMethodsForEmail, puis demandez à l\\'utilisateur de se connecter à l\\'aide de l\\'un des fournisseurs renvoyés. Une fois l\\'utilisateur connecté, les informations d\\'identification originales peuvent être liées au compte avec linkWithCredential.",
+        "invalid-verification-code": "Le code de vérification des informations d\\'identification est invalide.",
+        "invalid-verification-id": "L\\'ID de vérification des informations d\\'identification est invalide.",
+        "expired-action-code": "Le code OTP dans le lien e-mail a expiré.",
+        "default": "Erreur inconnue :"
+      }
+    },
+    "SignOut": {
+      "signout": "se Déconnecter"
+    },
+    "notvalid": "Le formulaire n'est pas valide",
+    "usernotexist": "L'utilisateur n'existe pas"
+  },
+  "HomePage": {
+    "transactions": "Transactions",
+    "locationpoint": "Point de vente",
+    "contact": "Nous Contact",
+    "homepagelarge": "Page d'accueil"
+  },
+  "Transaction": {
+    "Card": {
+      "your_balance": "VOTRE SOLDE:",
+      "Services": {
+        "payment": "Virement",
+        "transfer": "Transfer",
+        "loan_transactions": "Opérations de prêt",
+        "top_up": "Recharger"
+      }
+    },
+    "finished": "terminé",
+    "yourcreditcardnumber": "votre numéro de carte de crédit: ",
+    "confirm": "Confirmer",
+    "otp_verification": "Vérification OTP",
+    "amount": "montant: ",
+    "recievercardnumber": "numéro de carte du destinataire: ",
+    "next": "Suivant",
+    "success": "Transaction réalisée avec succès",
+    "History": {
+      "thismonth": "ce mois-ci:",
+      "today": "aujourd'hui",
+      "seeall": "Voir l'historique de toutes les transactions",
+      "daysago": "il y a quelques jours",
+      "history": "Historique des transactions"
+    },
+    "save": "sauvegarder",
+    "Details": {
+      "transactiondetails": "Détails De La Transaction",
+      "operation": "Opération: ",
+      "date": "Date:",
+      "from": "Depuis:",
+      "to": "À:",
+      "close": "fermer"
+    },
+    "currency": "DA"
+  },
+  "Language": {
+    "french": "français",
+    "english": "Anglais",
+    "arabic": "arabe",
+    "language": "Langue"
+  },
+  "Drawer": {
+    "myaccount": "Mon compte",
+    "aboutus": "À propos de nous"
+  },
+  "InCorrect": {
+    "creditcard": "numéro de carte incorrect"
+  },
+  "Please": {
+    "creditcard": "Veuillez saisir le numéro de carte de crédit",
+    "amount": "Veuillez saisir le montant à envoyer",
+    "message": "Veuillez écrire votre message",
+    "pfp": "Rien n'a changé. Vous pouvez mettre à jour votre pfp !"
+  },
+  "ContactUs": {
+    "fullname": "Nom et Prénom:",
+    "email": "E-mail:",
+    "fillemail": "Remplissez votre e-mail",
+    "message": "Votre message:",
+    "send_message": "Envoyer le message"
+  },
+  "SnackBar": {
+    "pfpupdated": "Photo de profil du compte mise à jour !"
+  },
+  "Account": {
+    "created": "Compte créé à :"
+  }
+}

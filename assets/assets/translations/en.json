@@ -1,0 +1,128 @@
+{
+  "Auth": {
+    "login_headline": "log in to\nyour account!",
+    "singup_headline": "create an account\nfor free!",
+    "Login": {
+      "num": "Phone number:",
+      "code": "Confirmation code:",
+      "loginbutton": "log in",
+      "notregistered1": "don't have an account? ",
+      "notregistered2": "Click to sign up",
+      "success_login": "Welcome!",
+      "loginlarge": "Log in"
+    },
+    "getcode": "Get code",
+    "codesent": "Code sent",
+    "please_phone": "Please enter your phone number",
+    "please_code": "Please enter the received code",
+    "phone_not_recognized": "Phone number not recognized",
+    "code_wrong": "The entered code is incorrect",
+    "SignUp": {
+      "havingacc1": "already have an account? ",
+      "havingacc2": "Click here to log in",
+      "fullname": "Full name:",
+      "idcard": "ID card number:",
+      "num": "Phone number:",
+      "code": "Confirmation code:",
+      "signupbutton": "sign up",
+      "fullname_hint": "Full Name",
+      "success_signup": "Thank you for creating an account with us! Please wait while we verify your identity. This process usually takes no more than 4 hours.",
+      "signuplarge": "Register with us"
+    },
+    "please_fullname": "Please enter your full name",
+    "please_idcard": "Please enter your ID card number",
+    "validate_phone": "Your phone number is incorrect",
+    "validate_idcard": "Your ID card number is incorrect",
+    "validate_fullname": "Please enter your correct name",
+    "AuthService": {
+      "Handler": {
+        "invalide-cridentials": "Your login credentials are not valid",
+        "user-disabled": "The user account corresponding to the given email has been disabled.",
+        "account-exists-with-different-credential": "There is already an account with the email asserted by the credentials. Resolve this by calling fetchSignInMethodsForEmail, then ask the user to sign in using one of the returned providers. Once the user is signed in, the original credentials can be linked to the account with linkWithCredential.",
+        "invalid-verification-code": "The verification code is invalid.",
+        "invalid-verification-id": "The verification ID is invalid.",
+        "expired-action-code": "The OTP code in the email link has expired.",
+        "default": "Unknown error:"
+      }
+    },
+    "SignOut": {
+      "signout": "Log out"
+    },
+    "notvalid": "The form is not valid",
+    "usernotexist": "User does not exist"
+  },
+  "HomePage": {
+    "transactions": "Transactions",
+    "locationpoint": "Point of sale",
+    "contact": "Contact Us",
+    "homepagelarge": "Home page"
+  },
+  "Transaction": {
+    "Card": {
+      "your_balance": "YOUR BALANCE:",
+      "Services": {
+        "payment": "Payment",
+        "transfer": "Transfer",
+        "loan_transactions": "Loan transactions",
+        "top_up": "Top up"
+      }
+    },
+    "finished": "finished",
+    "yourcreditcardnumber": "your credit card number: ",
+    "confirm": "Confirm",
+    "otp_verification": "OTP Verification",
+    "amount": "amount: ",
+    "recievercardnumber": "recipient's card number: ",
+    "next": "Next",
+    "success": "Transaction successfully completed",
+    "History": {
+      "thismonth": "this month:",
+      "today": "today",
+      "seeall": "See all transaction history",
+      "daysago": "a few days ago",
+      "history": "Transaction history"
+    },
+    "save": "save",
+    "Details": {
+      "transactiondetails": "Transaction Details",
+      "operation": "Operation: ",
+      "date": "Date:",
+      "from": "From:",
+      "to": "To:",
+      "close": "close"
+    },
+    "currency": "DA"
+  },
+  "Language": {
+    "french": "French",
+    "english": "English",
+    "arabic": "Arabic",
+    "language": "Language"
+  },
+  "Drawer": {
+    "myaccount": "My account",
+    "aboutus": "About us"
+  },
+  "InCorrect": {
+    "creditcard": "incorrect card number"
+  },
+  "Please": {
+    "creditcard": "Please enter the credit card number",
+    "amount": "Please enter the amount to send",
+    "message": "Please write your message",
+    "pfp": "Nothing has changed. You can update your pfp!"
+  },
+  "ContactUs": {
+    "fullname": "Full Name:",
+    "email": "Email:",
+    "fillemail": "Fill in your email",
+    "message": "Your message:",
+    "send_message": "Send message"
+  },
+  "SnackBar": {
+    "pfpupdated": "Account profile picture updated!"
+  },
+  "Account": {
+    "created": "Account created at:"
+  }
+}
